@@ -1,0 +1,147 @@
+@primary1: #5398BE;
+@primary2: #1C1C1C;
+@primary3: #333333;
+@BGbutton: #438BB1;
+
+.outline{
+  outline: 2px solid black;
+}
+
+.button{
+  background-color: @BGbutton;
+  border-radius: 8px;
+  border-color: @primary3;
+  padding: 10px;
+  color: white;
+}
+
+
+
+.infoDiv{
+  .outline;
+  background-color: @primary2;
+  color: @primary1;
+}
+
+body{
+  //background-color: @primary1;
+  background-color: @primary3;
+
+}
+
+#recentLeagues{
+  .infoDiv;
+}
+
+#openLeagues{
+  .infoDiv;
+}
+
+#mainDiv{
+  padding-top: 10%;
+
+}
+
+#homeText{
+  color: @primary1;
+}
+
+#dontfeedText{
+  color: @primary1;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  .outline;
+  color: @primary1;
+  text-align: center;
+}
+
+#centerDiv{
+  padding-right: 25%;
+  padding-left: 25%;
+  .outline;
+  .infoDiv;
+}
+
+#topOfCenterBox{
+  .outline;
+
+
+}
+
+#userLeagues1{
+  .outline;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#userLeagues2{
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#logo{
+  width: 5%;
+  height: 5%;
+}
+
+#topBox{
+
+}
+
+#createMainDiv{
+  margin: auto;
+}
+
+#createDiv{
+
+  text-align: center;
+  margin-top: 10%;
+}
+
+#topRightBox{
+  .outline;
+}
+
+#bottomRightBox{
+  .outline;
+}
+
+#searchButton{
+  .button;
+}
+
+#submitButton{
+  .button;
+}
+#recentLeagues{
+  ol{
+    li{
+      color: @primary1;
+    }
+  }
+}
+
+h1{
+  color: @primary1;
+}
+
+form{
+  label{
+    color: white;
+  }
+}
+
+nav{
+  div{
+    form{
+      button{
+        .button
+      }
+    }
+  }
+}
