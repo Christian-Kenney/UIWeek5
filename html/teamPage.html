@@ -91,7 +91,11 @@
 </div>
 
 <div class="footer">
-    <p>About Us | Common Questions | Legal | Contact</p>
+    <script id="footer" type="x-tmpl-mustache">
+				{{#item}}
+					<p>{name}  </p>
+				{{/item}}
+	    </script>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
