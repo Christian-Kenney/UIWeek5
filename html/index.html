@@ -10,6 +10,7 @@
   <link rel="stylesheet"  href="../css/homepage.css">
 
   <link rel="stylesheet/less" type="text/css" href="../css/main.less">
+
   <title>Home Page</title>
 </head>
 <body>
@@ -47,25 +48,10 @@
       <img src="/vertical%20ad.jpg" alt="Vertical ad for league">
     </div>
     <div class="col-6" >
-      <div id="recentLeaguesDiv" >
-        <script id="recentLeagues" type="x-tmpl-mustache">
-				{{#item}}
-					<li class="nav-item">
-						<a class="nav-link" href="{{link}}">{{name}}</a>
-					</li>
-				{{/item}}
-	    </script>
+      <div  id="recentLeaguesDiv">
 
       </div>
-
       <div id="openLeaguesDiv">
-        <script id="openLeagues" type="x-tmpl-mustache">
-				{{#item}}
-					<li class="nav-item">
-						<a class="nav-link" href="{{link}}">{{name}}</a>
-					</li>
-				{{/item}}
-	    </script>
       </div>
     </div>
     <div class="col">
@@ -74,11 +60,7 @@
   </div>
 </div>
 <div class="footer">
-  <script id="footer" type="x-tmpl-mustache">
-				{{#item}}
-					<p>{name}  </p>
-				{{/item}}
-	    </script>
+  <p>About Us | Common Questions | Legal | Contact</p>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -86,18 +68,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+<script src="../js/main.js"></script>
 
-<script type="text/javascript" src="../js/lessCompiler.js"></script>
 
-<script type="text/javascript" src="../js/jquery-3.3.1-1.min.js"></script>
-
-<!-- Reference Bootstrap JavaScript File -->
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-<!-- Mustache.js Reference -->
-<script type="text/javascript" src="../js/mustache-1.js"></script>
-
-<!-- Script containing our data wrapped in a document.ready function -->
-<script type="text/javascript" src="../js/data-1.js"></script>
 </body>
 </html>
